@@ -1,0 +1,38 @@
+{
+  "name": "mtg-encoding-system",
+  "version": "0.0.1",
+  "description": "A project to create a VIN number style system for organizing Magic The Gathering cards",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Poisonite/MTG-Encoding-System.git"
+  },
+  "keywords": [
+    "MagicTheGathering",
+    "MTG",
+    "Code System",
+    "Number System",
+    "Card Sorting"
+  ],
+  "author": "Zac Ingoglia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Poisonite/MTG-Encoding-System/issues"
+  },
+  "homepage": "https://github.com/Poisonite/MTG-Encoding-System#readme",
+  "devDependencies": {
+    "@types/prompt": "^1.1.2",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "prompt": "^1.2.0"
+  }
+}
